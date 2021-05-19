@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ashtime</title>
+  
+  
+  <link href="http://ashtime.net/atom.xml" rel="self"/>
+  
+  <link href="http://ashtime.net/"/>
+  <updated>2021-05-16T07:10:48.988Z</updated>
+  <id>http://ashtime.net/</id>
+  
+  <author>
+    <name>Ash</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sec</title>
+    <link href="http://ashtime.net/2021/05/12/sec/"/>
+    <id>http://ashtime.net/2021/05/12/sec/</id>
+    <published>2021-05-12T03:22:55.000Z</published>
+    <updated>2021-05-16T07:10:48.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Spring-Security实现验证码登陆&quot;&gt;&lt;a href=&quot;#Spring-Security实现验证码登陆&quot; class=&quot;headerlink&quot; title=&quot;Spring Security实现验证码登陆&quot;&gt;&lt;/a&gt;Spring</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java中方法的参数传递机制</title>
+    <link href="http://ashtime.net/2021/05/08/Java%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92%E6%9C%BA%E5%88%B6/"/>
+    <id>http://ashtime.net/2021/05/08/Java%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92%E6%9C%BA%E5%88%B6/</id>
+    <published>2021-05-08T09:47:51.000Z</published>
+    <updated>2021-05-08T09:50:23.788Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;参数传递机制有两种：值传递和引用传递。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;值传递&lt;/strong&gt;：是指在调用函数时将&lt;strong&gt;实际参数复制&lt;/strong&gt;一份传递到函数中，这样在函数中如果&lt;strong&gt;对参数进行修改&lt;/strong&gt;，将不会影响到实际参数。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;引用传递&lt;/strong&gt;：是指在调用函数时将&lt;strong&gt;实际参数的地址直接传递&lt;/strong&gt;到函数中，那么在函数中&lt;strong&gt;对参数所进行的修改&lt;/strong&gt;，将影响到实际参数。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="java" scheme="http://ashtime.net/categories/java/"/>
+    
+    
+    <category term="java基础" scheme="http://ashtime.net/tags/java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>序 / INTRO</title>
+    <link href="http://ashtime.net/2021/05/07/%E5%BA%8F-INTRO/"/>
+    <id>http://ashtime.net/2021/05/07/%E5%BA%8F-INTRO/</id>
+    <published>2021-05-07T07:33:19.000Z</published>
+    <updated>2021-05-10T07:37:38.985Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;
+            &lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt;
+            &lt;p&gt;因为有梦，&lt;br&gt;所以探寻。&lt;/p&gt;
+
+            &lt;i class=&quot;fa fa-quote-right&quot;&gt;&lt;/i&gt;
+          &lt;/blockquote&gt;
+&lt;p&gt;欢迎来到我的博客&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="自我" scheme="http://ashtime.net/categories/%E8%87%AA%E6%88%91/"/>
+    
+    
+    <category term="自我" scheme="http://ashtime.net/tags/%E8%87%AA%E6%88%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PTA- 基础编程题目集</title>
+    <link href="http://ashtime.net/2019/12/12/%E5%88%B7%E9%A2%98-PTA%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B%E9%A2%98%E7%9B%AE%E9%9B%86/"/>
+    <id>http://ashtime.net/2019/12/12/%E5%88%B7%E9%A2%98-PTA%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B%E9%A2%98%E7%9B%AE%E9%9B%86/</id>
+    <published>2019-12-12T14:58:30.000Z</published>
+    <updated>2021-05-07T09:48:10.677Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;PTA- 基础编程题目集，多打打代码&lt;br&gt;题库：PTA- 基础编程题目集&lt;br&gt;</summary>
+    
+    
+    
+    <category term="C语言" scheme="http://ashtime.net/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="C语言基础编程" scheme="http://ashtime.net/tags/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>银行家算法避免死锁</title>
+    <link href="http://ashtime.net/2019/12/07/OS-%E9%93%B6%E8%A1%8C%E5%AE%B6%E7%AE%97%E6%B3%95%E9%81%BF%E5%85%8D%E6%AD%BB%E9%94%81/"/>
+    <id>http://ashtime.net/2019/12/07/OS-%E9%93%B6%E8%A1%8C%E5%AE%B6%E7%AE%97%E6%B3%95%E9%81%BF%E5%85%8D%E6%AD%BB%E9%94%81/</id>
+    <published>2019-12-07T12:13:58.000Z</published>
+    <updated>2021-05-07T10:03:37.868Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-银行家算法中的数据结构&quot;&gt;&lt;a href=&quot;#1-银行家算法中的数据结构&quot; class=&quot;headerlink&quot; title=&quot;1.银行家算法中的数据结构&quot;&gt;&lt;/a&gt;1.银行家算法中的数据结构&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Available可利用资源向量。&lt;/li&gt;
+&lt;li&gt;Max最大需求矩阵。&lt;/li&gt;
+&lt;li&gt;Allocation分配矩阵。&lt;/li&gt;
+&lt;li&gt;Need需求矩阵。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;2-银行家算法&quot;&gt;&lt;a href=&quot;#2-银行家算法&quot; class=&quot;headerlink&quot; title=&quot;2.银行家算法&quot;&gt;&lt;/a&gt;2.银行家算法&lt;/h2&gt;&lt;p&gt;设&lt;strong&gt;Requesti&lt;/strong&gt;是进程Pi的请求向量，&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]=k&lt;/strong&gt;，表示进程Pi需要K个Rj类型的资源。&lt;/p&gt;
+&lt;p&gt;当P&lt;sub&gt;i&lt;/sub&gt;发出请求时候，系统按下步骤检查：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Need[ j ]&lt;/strong&gt;，到步骤二；否则出错，因为他所需要的资源已超过它所宣布的最大值。&lt;/li&gt;
+&lt;li&gt;如果&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Available[ j ]&lt;/strong&gt;到步骤三；否则尚无足够资源，P&lt;sub&gt;i&lt;/sub&gt;需等待。&lt;/li&gt;
+&lt;li&gt;系统试探分配资源给P&lt;sub&gt;i&lt;/sub&gt; :&lt;br&gt;&lt;strong&gt;Available&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Allocation&lt;sub&gt;i&lt;/sub&gt;[j]+=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Need&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;执行安全性算法，若安全分配资源给Pi，否则作废恢复原来资源分配状态，让P&lt;sub&gt;i&lt;/sub&gt;等待。&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="OS" scheme="http://ashtime.net/categories/OS/"/>
+    
+    
+    <category term="银行家算法" scheme="http://ashtime.net/tags/%E9%93%B6%E8%A1%8C%E5%AE%B6%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>problemlist</title>
+    <link href="http://ashtime.net/2019/12/03/%E5%88%B7%E9%A2%98-%E6%A0%A1%E5%86%85Java%E5%9F%BA%E7%A1%80%E9%A2%98%E7%BB%83%E4%B9%A0/"/>
+    <id>http://ashtime.net/2019/12/03/%E5%88%B7%E9%A2%98-%E6%A0%A1%E5%86%85Java%E5%9F%BA%E7%A1%80%E9%A2%98%E7%BB%83%E4%B9%A0/</id>
+    <published>2019-12-03T13:34:14.000Z</published>
+    <updated>2021-05-07T09:47:16.443Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;学校里的一些java基础题&lt;br&gt;有些题可能有更优解&lt;br&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="http://ashtime.net/categories/Java/"/>
+    
+    
+    <category term="Java基础题" scheme="http://ashtime.net/tags/Java%E5%9F%BA%E7%A1%80%E9%A2%98/"/>
+    
+    <category term="校内" scheme="http://ashtime.net/tags/%E6%A0%A1%E5%86%85/"/>
+    
+  </entry>
+  
+</feed>
