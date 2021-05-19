@@ -74,6 +74,7 @@
 
             &lt;i class=&quot;fa fa-quote-right&quot;&gt;&lt;/i&gt;
           &lt;/blockquote&gt;
+
 &lt;p&gt;欢迎来到我的博客&lt;/p&gt;</summary>
     
     
@@ -93,7 +94,7 @@
     <updated>2021-05-07T09:48:10.677Z</updated>
     
     
-    <summary type="html">&lt;p&gt;PTA- 基础编程题目集，多打打代码&lt;br&gt;题库：PTA- 基础编程题目集&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;PTA- 基础编程题目集，多打打代码&lt;br&gt;题库：PTA- 基础编程题目集&lt;/p&gt;</summary>
     
     
     
@@ -121,8 +122,8 @@
 &lt;h2 id=&quot;2-银行家算法&quot;&gt;&lt;a href=&quot;#2-银行家算法&quot; class=&quot;headerlink&quot; title=&quot;2.银行家算法&quot;&gt;&lt;/a&gt;2.银行家算法&lt;/h2&gt;&lt;p&gt;设&lt;strong&gt;Requesti&lt;/strong&gt;是进程Pi的请求向量，&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]=k&lt;/strong&gt;，表示进程Pi需要K个Rj类型的资源。&lt;/p&gt;
 &lt;p&gt;当P&lt;sub&gt;i&lt;/sub&gt;发出请求时候，系统按下步骤检查：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;如果&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Need[ j ]&lt;/strong&gt;，到步骤二；否则出错，因为他所需要的资源已超过它所宣布的最大值。&lt;/li&gt;
-&lt;li&gt;如果&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Available[ j ]&lt;/strong&gt;到步骤三；否则尚无足够资源，P&lt;sub&gt;i&lt;/sub&gt;需等待。&lt;/li&gt;
+&lt;li&gt;如果**Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Need[ j ]**，到步骤二；否则出错，因为他所需要的资源已超过它所宣布的最大值。&lt;/li&gt;
+&lt;li&gt;如果**Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Available[ j ]**到步骤三；否则尚无足够资源，P&lt;sub&gt;i&lt;/sub&gt;需等待。&lt;/li&gt;
 &lt;li&gt;系统试探分配资源给P&lt;sub&gt;i&lt;/sub&gt; :&lt;br&gt;&lt;strong&gt;Available&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Allocation&lt;sub&gt;i&lt;/sub&gt;[j]+=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Need&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;执行安全性算法，若安全分配资源给Pi，否则作废恢复原来资源分配状态，让P&lt;sub&gt;i&lt;/sub&gt;等待。&lt;/li&gt;
 &lt;/ol&gt;</summary>
@@ -144,7 +145,7 @@
     <updated>2021-05-07T09:47:16.443Z</updated>
     
     
-    <summary type="html">&lt;p&gt;学校里的一些java基础题&lt;br&gt;有些题可能有更优解&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;学校里的一些java基础题&lt;br&gt;有些题可能有更优解&lt;/p&gt;</summary>
     
     
     
