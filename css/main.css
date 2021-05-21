@@ -1318,7 +1318,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #96f159;
+  background: #ffb5a7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2833,6 +2833,22 @@ p#div-border-top-purple {
   border-top-width: 5px;
   border-radius: 3px;
   border-top-color: #9954bb;
+}
+.custom-banner {
+  padding: 40px 0;
+  margin-bottom: 40px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.6);
+  background-image: url("images/banner-bg.jpg");
+  background-blend-mode: darken;
+}
+.custom-banner h1 {
+  text-align: center;
+  color: #fff;
+  font-family: fira code, consolas, Menlo, pingfang sc, microsoft yahei, monospace;
+  font-style: italic;
+  font-weight: 400;
 }
 /* 滚动条 */
 ::-webkit-scrollbar-thumb {
