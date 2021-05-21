@@ -1318,7 +1318,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffb5a7;
+  background: #a8363b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2620,6 +2620,9 @@ embed {
   font-family: "Microsoft YaHei";
   font-size: 10px;
 }
+h1 {
+  font-size: 22px;
+}
 a#download {
   display: inline-block;
   padding: 0 10px;
@@ -2840,8 +2843,9 @@ p#div-border-top-purple {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgba(0,0,0,0.6);
-  background-image: url("images/banner-bg.jpg");
+  background-image: url("/images/banner-bg.jpg");
   background-blend-mode: darken;
+  background-position: 50% 50%;
 }
 .custom-banner h1 {
   text-align: center;
