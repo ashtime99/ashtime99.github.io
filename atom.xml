@@ -6,7 +6,7 @@
   <link href="http://ashtime.net/atom.xml" rel="self"/>
   
   <link href="http://ashtime.net/"/>
-  <updated>2021-05-16T07:10:48.988Z</updated>
+  <updated>2021-05-19T09:25:37.973Z</updated>
   <id>http://ashtime.net/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单例模式</title>
+    <link href="http://ashtime.net/2021/05/19/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://ashtime.net/2021/05/19/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</id>
+    <published>2021-05-19T09:23:39.000Z</published>
+    <updated>2021-05-19T09:25:37.973Z</updated>
+    
+    
+    
+    
+    <category term="设计模式" scheme="http://ashtime.net/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="单例模式" scheme="http://ashtime.net/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>sec</title>
