@@ -6,7 +6,7 @@
   <link href="http://ashtime.net/atom.xml" rel="self"/>
   
   <link href="http://ashtime.net/"/>
-  <updated>2021-05-08T09:50:23.788Z</updated>
+  <updated>2021-05-31T07:37:58.399Z</updated>
   <id>http://ashtime.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式</title>
+    <link href="http://ashtime.net/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://ashtime.net/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
+    <published>2021-05-31T07:04:07.000Z</published>
+    <updated>2021-05-31T07:37:58.399Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;工厂模式&quot;&gt;&lt;a href=&quot;#工厂模式&quot; class=&quot;headerlink&quot; title=&quot;工厂模式&quot;&gt;&lt;/a&gt;工厂模式&lt;/h2&gt;&lt;p&gt;定义一个创建对象的接口，&lt;span class=&quot;label default&quot;&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="设计模式" scheme="http://ashtime.net/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="http://ashtime.net/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Java中方法的参数传递机制</title>
