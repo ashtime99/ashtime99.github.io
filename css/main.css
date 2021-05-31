@@ -1318,7 +1318,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c6ac1f;
+  background: #ffff79;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2637,7 +2637,7 @@ a#download:hover {
   background: #000;
   color: #fff;
 }
-span#inline-yellow {
+span .inline-yellow {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2649,7 +2649,7 @@ span#inline-yellow {
   border-radius: 0;
   background-color: #f0ad4e;
 }
-span#inline-green {
+span .inline-green {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2661,7 +2661,7 @@ span#inline-green {
   border-radius: 0;
   background-color: #5cb85c;
 }
-span#inline-blue {
+span .inline-blue {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2673,7 +2673,7 @@ span#inline-blue {
   border-radius: 0;
   background-color: #2780e3;
 }
-span#inline-purple {
+span .inline-purple {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2685,7 +2685,7 @@ span#inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
-span#inline-red {
+span .inline-red {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2697,7 +2697,7 @@ span#inline-red {
   border-radius: 0;
   background-color: #df3e3e;
 }
-p#div-border-left-red {
+p.div-border-left-red {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2706,7 +2706,7 @@ p#div-border-left-red {
   border-radius: 3px;
   border-left-color: #df3e3e;
 }
-p#div-border-left-yellow {
+p.div-border-left-yellow {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2715,7 +2715,7 @@ p#div-border-left-yellow {
   border-radius: 3px;
   border-left-color: #f0ad4e;
 }
-p#div-border-left-green {
+p.div-border-left-green {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2724,7 +2724,7 @@ p#div-border-left-green {
   border-radius: 3px;
   border-left-color: #5cb85c;
 }
-p#div-border-left-blue {
+p.div-border-left-blue {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2733,7 +2733,7 @@ p#div-border-left-blue {
   border-radius: 3px;
   border-left-color: #2780e3;
 }
-p#div-border-left-purple {
+p.div-border-left-purple {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2742,7 +2742,7 @@ p#div-border-left-purple {
   border-radius: 3px;
   border-left-color: #9954bb;
 }
-p#div-border-right-red {
+p.div-border-right-red {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2751,7 +2751,7 @@ p#div-border-right-red {
   border-radius: 3px;
   border-right-color: #df3e3e;
 }
-p#div-border-right-yellow {
+p.div-border-right-yellow {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2760,7 +2760,7 @@ p#div-border-right-yellow {
   border-radius: 3px;
   border-right-color: #f0ad4e;
 }
-p#div-border-right-green {
+p.div-border-right-green {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2769,7 +2769,7 @@ p#div-border-right-green {
   border-radius: 3px;
   border-right-color: #5cb85c;
 }
-p#div-border-right-blue {
+p.div-border-right-blue {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2778,7 +2778,7 @@ p#div-border-right-blue {
   border-radius: 3px;
   border-right-color: #2780e3;
 }
-p#div-border-right-purple {
+p.div-border-right-purple {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2787,7 +2787,7 @@ p#div-border-right-purple {
   border-radius: 3px;
   border-right-color: #9954bb;
 }
-p#div-border-top-red {
+p.div-border-top-red {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2796,7 +2796,7 @@ p#div-border-top-red {
   border-radius: 3px;
   border-top-color: #df3e3e;
 }
-p#div-border-top-yellow {
+p.div-border-top-yellow {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2805,7 +2805,7 @@ p#div-border-top-yellow {
   border-radius: 3px;
   border-top-color: #f0ad4e;
 }
-p#div-border-top-green {
+p.div-border-top-green {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2814,7 +2814,7 @@ p#div-border-top-green {
   border-radius: 3px;
   border-top-color: #5cb85c;
 }
-p#div-border-top-blue {
+p.div-border-top-blue {
   display: block;
   padding: 10px;
   margin: 10px 0;
@@ -2823,7 +2823,7 @@ p#div-border-top-blue {
   border-radius: 3px;
   border-top-color: #2780e3;
 }
-p#div-border-top-purple {
+p.div-border-top-purple {
   display: block;
   padding: 10px;
   margin: 10px 0;
