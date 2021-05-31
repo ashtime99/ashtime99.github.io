@@ -24,7 +24,7 @@
     <url>/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
     <content><![CDATA[<p>设计模式的笔记</p>
 <span id="more"></span>
-<h2 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h2><p>定义一个创建对象的接口，<span class="label default"> 让其子类自己决定实例化哪一个工厂类</span>，工厂模式使其创建过程延迟到子类进行。</p>
+<h2 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h2><p>定义一个创建对象的接口，<span class="label primary"> 让其子类自己决定实例化哪一个工厂类</span>，工厂模式使其创建过程延迟到子类进行。</p>
 ]]></content>
       <categories>
         <category>设计模式</category>
