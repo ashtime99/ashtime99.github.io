@@ -1318,7 +1318,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff52f5;
+  background: #c6ac1f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2639,8 +2639,7 @@ a#download:hover {
 }
 span#inline-yellow {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
-  font-size: 80%;
+  font-size: 95%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
@@ -2652,8 +2651,7 @@ span#inline-yellow {
 }
 span#inline-green {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
-  font-size: 80%;
+  font-size: 95%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
@@ -2665,8 +2663,7 @@ span#inline-green {
 }
 span#inline-blue {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
-  font-size: 80%;
+  font-size: 95%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
@@ -2678,8 +2675,7 @@ span#inline-blue {
 }
 span#inline-purple {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
-  font-size: 80%;
+  font-size: 95%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
@@ -2691,8 +2687,7 @@ span#inline-purple {
 }
 span#inline-red {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
-  font-size: 80%;
+  font-size: 95%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
