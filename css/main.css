@@ -1318,7 +1318,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffff79;
+  background: #ff26ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2623,7 +2623,7 @@ embed {
 h1 {
   font-size: 22px;
 }
-a#download {
+a.download {
   display: inline-block;
   padding: 0 10px;
   color: #000;
@@ -2633,11 +2633,11 @@ a#download {
   transition: all 0.5s ease;
   font-weight: bold;
 }
-a#download:hover {
+a.download:hover {
   background: #000;
   color: #fff;
 }
-span .inline-yellow {
+span.inline-yellow {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2649,7 +2649,7 @@ span .inline-yellow {
   border-radius: 0;
   background-color: #f0ad4e;
 }
-span .inline-green {
+span.inline-green {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2661,7 +2661,7 @@ span .inline-green {
   border-radius: 0;
   background-color: #5cb85c;
 }
-span .inline-blue {
+span.inline-blue {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2673,7 +2673,7 @@ span .inline-blue {
   border-radius: 0;
   background-color: #2780e3;
 }
-span .inline-purple {
+span.inline-purple {
   display: inline;
   font-size: 95%;
   font-weight: bold;
@@ -2685,7 +2685,7 @@ span .inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
-span .inline-red {
+span.inline-red {
   display: inline;
   font-size: 95%;
   font-weight: bold;
