@@ -6,7 +6,7 @@
   <link href="http://ashtime.net/atom.xml" rel="self"/>
   
   <link href="http://ashtime.net/"/>
-  <updated>2021-05-31T07:37:58.399Z</updated>
+  <updated>2021-05-31T07:44:40.345Z</updated>
   <id>http://ashtime.net/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="http://ashtime.net/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     <id>http://ashtime.net/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
     <published>2021-05-31T07:04:07.000Z</published>
-    <updated>2021-05-31T07:37:58.399Z</updated>
+    <updated>2021-05-31T07:44:40.345Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;工厂模式&quot;&gt;&lt;a href=&quot;#工厂模式&quot; class=&quot;headerlink&quot; title=&quot;工厂模式&quot;&gt;&lt;/a&gt;工厂模式&lt;/h2&gt;&lt;p&gt;定义一个创建对象的接口，&lt;span class=&quot;label default&quot;&gt;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;设计模式的笔记&lt;/p&gt;</summary>
     
     
     
@@ -38,6 +32,8 @@
     
     
     <category term="设计模式" scheme="http://ashtime.net/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="笔记" scheme="http://ashtime.net/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
