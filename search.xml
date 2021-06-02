@@ -75,7 +75,9 @@
   <entry>
     <title>设计模式</title>
     <url>/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<p>设计模式的笔记<br><span id="more"></span></p>
+    <content><![CDATA[<style>.header-anchor{border-bottom:none;display:inline-block;margin-right:5px}</style>
+
+<p>设计模式的笔记<br><span id="more"></span></p>
 <h2 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>定义一个创建对象的接口，<strong>让其子类自己决定实例化哪一个工厂类，工厂模式使其创建过程延迟到子类进行</strong>。</p>
 <p class="div-border-top-blue">
 我只需要去工厂提货就行，不用关心工厂如何生产。
