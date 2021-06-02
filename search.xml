@@ -94,8 +94,7 @@
   <entry>
     <title>设计模式</title>
     <url>/2021/05/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<style>.header-anchor{border-bottom:none;display:inline-block;margin-right:5px}</style>
-<p>设计模式的笔记</p>
+    <content><![CDATA[<p>设计模式的笔记</p>
 <span id="more"></span>
 <h2 id="工厂模式"><a class="header-anchor" href="#工厂模式">¶</a>工厂模式</h2>
 <h3 id="介绍"><a class="header-anchor" href="#介绍">¶</a>介绍</h3>
@@ -136,8 +135,8 @@
 <h3 id="实现"><a class="header-anchor" href="#实现">¶</a>实现</h3>
 <h4 id="懒汉式，线程不安全"><a class="header-anchor" href="#懒汉式，线程不安全">¶</a>懒汉式，线程不安全</h4>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance;  </span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span> <span class="params">()</span></span>&#123;&#125;  </span><br><span class="line">  </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">if</span> (instance == <span class="keyword">null</span>) &#123;  </span><br><span class="line">        instance = <span class="keyword">new</span> Singleton();  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">return</span> instance;  </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id=""><a class="header-anchor" href="#">¶</a></h2>
-<h2 id="-2"><a class="header-anchor" href="#-2">¶</a></h2>
+<h2 id="建造者模式"><a class="header-anchor" href="#建造者模式">¶</a>建造者模式</h2>
+<h2 id="原型模式"><a class="header-anchor" href="#原型模式">¶</a>原型模式</h2>
 ]]></content>
       <categories>
         <category>设计模式</category>
