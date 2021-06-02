@@ -25,7 +25,7 @@
     
     
     <summary type="html">&lt;p&gt;本文转载自&lt;a href=&quot;http://www.cnblogs.com/dolphin0520/p/3799052.html&quot;&gt;Java中的static关键字解析&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;一-static关键字的用途&quot;&gt;一.static关键字的用途&lt;/h2&gt;
+&lt;h2 id=&quot;一-static关键字的用途&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#一-static关键字的用途&quot;&gt;¶&lt;/a&gt;一.static关键字的用途&lt;/h2&gt;
 &lt;p&gt;  在《Java编程思想》P86页有这样一段话：&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt;
             &lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt;
@@ -146,14 +146,14 @@
     <updated>2021-05-07T10:03:37.868Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-银行家算法中的数据结构&quot;&gt;1.银行家算法中的数据结构&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;1-银行家算法中的数据结构&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-银行家算法中的数据结构&quot;&gt;¶&lt;/a&gt;1.银行家算法中的数据结构&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Available可利用资源向量。&lt;/li&gt;
 &lt;li&gt;Max最大需求矩阵。&lt;/li&gt;
 &lt;li&gt;Allocation分配矩阵。&lt;/li&gt;
 &lt;li&gt;Need需求矩阵。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;2-银行家算法&quot;&gt;2.银行家算法&lt;/h2&gt;
+&lt;h2 id=&quot;2-银行家算法&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-银行家算法&quot;&gt;¶&lt;/a&gt;2.银行家算法&lt;/h2&gt;
 &lt;p&gt;设&lt;strong&gt;Requesti&lt;/strong&gt;是进程Pi的请求向量，&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]=k&lt;/strong&gt;，表示进程Pi需要K个Rj类型的资源。&lt;/p&gt;
 &lt;p&gt;当P&lt;sub&gt;i&lt;/sub&gt;发出请求时候，系统按下步骤检查：&lt;/p&gt;
 &lt;ol&gt;
