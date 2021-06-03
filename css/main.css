@@ -1373,7 +1373,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #36ff33;
+  background: #ff5e1f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2913,13 +2913,13 @@ p.div-border-top-purple {
 ::-webkit-scrollbar-thumb {
   background-color: #5b5b5b;
   background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
-  border-radius: 3em;
+  border-radius: 0.3em;
 }
 ::-webkit-scrollbar-track {
   background-color: #b6b6b6;
-  border-radius: 3em;
+  border-radius: 0.3em;
 }
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
 }
