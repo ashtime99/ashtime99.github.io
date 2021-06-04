@@ -6,7 +6,7 @@
   <link href="http://ashtime.net/atom.xml" rel="self"/>
   
   <link href="http://ashtime.net/"/>
-  <updated>2021-06-04T07:03:27.502Z</updated>
+  <updated>2021-06-04T07:12:45.964Z</updated>
   <id>http://ashtime.net/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://ashtime.net/2021/06/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%83%E4%B9%A0/"/>
     <id>http://ashtime.net/2021/06/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%83%E4%B9%A0/</id>
     <published>2021-06-03T04:06:54.000Z</published>
-    <updated>2021-06-04T07:03:27.502Z</updated>
+    <updated>2021-06-04T07:12:45.964Z</updated>
     
     
     <summary type="html">&lt;p&gt;题库来源leetcode&lt;/p&gt;
 &lt;p&gt;难度：&lt;/p&gt;
-&lt;p&gt;:full_moon_with_face:&lt;span class=&quot;label success&quot;&gt;简单&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;:first_quarter_moon:&lt;span class=&quot;label warning&quot;&gt;中等&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;:new_moon_with_face:&lt;span class=&quot;label danger&quot;&gt;困难&lt;/span&gt;&lt;/p&gt;</summary>
+&lt;p&gt;🌝&lt;span class=&quot;label success&quot;&gt;简单&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;🌓&lt;span class=&quot;label warning&quot;&gt;中等&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;🌚&lt;span class=&quot;label danger&quot;&gt;困难&lt;/span&gt;&lt;/p&gt;</summary>
     
     
     
@@ -50,17 +50,18 @@
     
     
     <summary type="html">&lt;p&gt;本文转载自&lt;a href=&quot;http://www.cnblogs.com/dolphin0520/p/3799052.html&quot;&gt;Java中的static关键字解析&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;一-static关键字的用途&quot;&gt;&lt;a href=&quot;#一-static关键字的用途&quot; class=&quot;headerlink&quot; title=&quot;一.static关键字的用途&quot;&gt;&lt;/a&gt;一.static关键字的用途&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;在《Java编程思想》P86页有这样一段话：&lt;/p&gt;
+&lt;h2 id=&quot;一-static关键字的用途&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#一-static关键字的用途&quot;&gt;¶&lt;/a&gt;一.static关键字的用途&lt;/h2&gt;
+&lt;p&gt;  在《Java编程思想》P86页有这样一段话：&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt;
             &lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt;
             &lt;p&gt;static方法就是没有this的方法。在static方法内部不能调用非静态方法，反过来是可以的。而且可以在没有创建任何对象的前提下，仅仅通过类本身来调用static方法。这实际上正是static方法的主要用途。&lt;/p&gt;
 
             &lt;i class=&quot;fa fa-quote-right&quot;&gt;&lt;/i&gt;
           &lt;/blockquote&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;这段话虽然只是说明了static方法的特殊之处，但是可以看出static关键字的基本作用，简而言之，一句话来描述就是：&lt;/p&gt;
-&lt;p&gt;　　&lt;strong&gt;方便在没有创建对象的情况下来进行调用（方法/变量）。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;很显然，被static关键字修饰的方法或者变量不需要依赖于对象来进行访问，只要类被加载了，就可以通过类名去进行访问。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;static可以用来修饰类的成员方法、类的成员变量，另外可以编写static代码块来优化程序性能。&lt;/p&gt;</summary>
+&lt;p&gt;  这段话虽然只是说明了static方法的特殊之处，但是可以看出static关键字的基本作用，简而言之，一句话来描述就是：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;方便在没有创建对象的情况下来进行调用（方法/变量）。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  很显然，被static关键字修饰的方法或者变量不需要依赖于对象来进行访问，只要类被加载了，就可以通过类名去进行访问。&lt;/p&gt;
+&lt;p&gt;  static可以用来修饰类的成员方法、类的成员变量，另外可以编写static代码块来优化程序性能。&lt;/p&gt;</summary>
     
     
     
@@ -104,7 +105,8 @@
     
     <summary type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;
             &lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt;
-            &lt;p&gt;因为有梦，&lt;br&gt;所以探寻。&lt;/p&gt;
+            &lt;p&gt;因为有梦，&lt;br&gt;
+所以探寻。&lt;/p&gt;
 
             &lt;i class=&quot;fa fa-quote-right&quot;&gt;&lt;/i&gt;
           &lt;/blockquote&gt;
@@ -127,7 +129,8 @@
     <updated>2021-05-07T09:48:10.677Z</updated>
     
     
-    <summary type="html">&lt;p&gt;PTA- 基础编程题目集，多打打代码&lt;br&gt;题库：PTA- 基础编程题目集&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;PTA- 基础编程题目集，多打打代码&lt;br&gt;
+题库：PTA- 基础编程题目集&lt;/p&gt;</summary>
     
     
     
@@ -146,18 +149,23 @@
     <updated>2021-05-07T10:03:37.868Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-银行家算法中的数据结构&quot;&gt;&lt;a href=&quot;#1-银行家算法中的数据结构&quot; class=&quot;headerlink&quot; title=&quot;1.银行家算法中的数据结构&quot;&gt;&lt;/a&gt;1.银行家算法中的数据结构&lt;/h2&gt;&lt;ol&gt;
+    <summary type="html">&lt;h2 id=&quot;1-银行家算法中的数据结构&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-银行家算法中的数据结构&quot;&gt;¶&lt;/a&gt;1.银行家算法中的数据结构&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;Available可利用资源向量。&lt;/li&gt;
 &lt;li&gt;Max最大需求矩阵。&lt;/li&gt;
 &lt;li&gt;Allocation分配矩阵。&lt;/li&gt;
 &lt;li&gt;Need需求矩阵。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;2-银行家算法&quot;&gt;&lt;a href=&quot;#2-银行家算法&quot; class=&quot;headerlink&quot; title=&quot;2.银行家算法&quot;&gt;&lt;/a&gt;2.银行家算法&lt;/h2&gt;&lt;p&gt;设&lt;strong&gt;Requesti&lt;/strong&gt;是进程Pi的请求向量，&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]=k&lt;/strong&gt;，表示进程Pi需要K个Rj类型的资源。&lt;/p&gt;
+&lt;h2 id=&quot;2-银行家算法&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-银行家算法&quot;&gt;¶&lt;/a&gt;2.银行家算法&lt;/h2&gt;
+&lt;p&gt;设&lt;strong&gt;Requesti&lt;/strong&gt;是进程Pi的请求向量，&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]=k&lt;/strong&gt;，表示进程Pi需要K个Rj类型的资源。&lt;/p&gt;
 &lt;p&gt;当P&lt;sub&gt;i&lt;/sub&gt;发出请求时候，系统按下步骤检查：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;如果&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Need[ j ]&lt;/strong&gt;，到步骤二；否则出错，因为他所需要的资源已超过它所宣布的最大值。&lt;/li&gt;
-&lt;li&gt;如果&lt;strong&gt;Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Available[ j ]&lt;/strong&gt;到步骤三；否则尚无足够资源，P&lt;sub&gt;i&lt;/sub&gt;需等待。&lt;/li&gt;
-&lt;li&gt;系统试探分配资源给P&lt;sub&gt;i&lt;/sub&gt; :&lt;br&gt;&lt;strong&gt;Available&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Allocation&lt;sub&gt;i&lt;/sub&gt;[j]+=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Need&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;如果**Request&lt;sub&gt;i&lt;/sub&gt;[ j ]≤Available[ j ]**到步骤三；否则尚无足够资源，P&lt;sub&gt;i&lt;/sub&gt;需等待。&lt;/li&gt;
+&lt;li&gt;系统试探分配资源给P&lt;sub&gt;i&lt;/sub&gt; :&lt;br&gt;
+&lt;strong&gt;Available&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Allocation&lt;sub&gt;i&lt;/sub&gt;[j]+=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Need&lt;sub&gt;i&lt;/sub&gt;[j]-=Request&lt;sub&gt;i&lt;/sub&gt;[j];&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;执行安全性算法，若安全分配资源给Pi，否则作废恢复原来资源分配状态，让P&lt;sub&gt;i&lt;/sub&gt;等待。&lt;/li&gt;
 &lt;/ol&gt;</summary>
     
@@ -178,7 +186,8 @@
     <updated>2021-05-07T09:47:16.443Z</updated>
     
     
-    <summary type="html">&lt;p&gt;学校里的一些java基础题&lt;br&gt;有些题可能有更优解&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;学校里的一些java基础题&lt;br&gt;
+有些题可能有更优解&lt;/p&gt;</summary>
     
     
     
