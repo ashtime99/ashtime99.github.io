@@ -20,6 +20,90 @@
       </tags>
   </entry>
   <entry>
+    <title>SpringCloud</title>
+    <url>/2021/06/15/SpringCloud/</url>
+    <content><![CDATA[<p>SpringCloud的笔记（未整理、杂）</p>
+<span id="more"></span>
+<h2 id="服务注册发现"><a class="header-anchor" href="#服务注册发现">¶</a>服务注册发现</h2>
+<h2 id="服务调用"><a class="header-anchor" href="#服务调用">¶</a>服务调用</h2>
+<h3 id="CAP"><a class="header-anchor" href="#CAP">¶</a>CAP</h3>
+<p>C-Consistency（强一致性）</p>
+<p>A-Availability（可用性）</p>
+<p>P-Partiton tolerance （分区容错性）</p>
+<p>CAP理论关注的粒度是数据，而不是整体系统设计的策略</p>
+<p>AP：Eureka</p>
+<p>CP：Zookeeper、Consul</p>
+<h3 id="Ribbon"><a class="header-anchor" href="#Ribbon">¶</a>Ribbon</h3>
+<p>客户端负载均衡工具</p>
+<p>替换负载均衡算法</p>
+<h3 id="负载均衡算法"><a class="header-anchor" href="#负载均衡算法">¶</a>负载均衡算法</h3>
+<p><strong>轮询算法原理</strong></p>
+<p>rest接口第几次请求数 % 服务器总数量=实际调用服务器位置下标，每次服务重启动后rest接口计数从1开始</p>
+<p><code>1 % 2=1 list.get(1)</code></p>
+<p><strong>源码</strong></p>
+<p>自旋锁？</p>
+<p><strong>手写</strong></p>
+<h2 id="服务降级"><a class="header-anchor" href="#服务降级">¶</a>服务降级</h2>
+<p><strong>服务雪崩</strong></p>
+<h3 id="Hystrix"><a class="header-anchor" href="#Hystrix">¶</a>Hystrix</h3>
+<p>服务降级</p>
+<p>​	服务器忙，请稍后再试，不让客户端等待并立刻返回一个友好提示</p>
+<p>​	那些情况会出发降级</p>
+<blockquote>
+<ul>
+<li>程序运行异常</li>
+<li>超时</li>
+<li>服务熔断触发服务降级</li>
+<li>线程池/信号量打满也会导致服务降级</li>
+</ul>
+</blockquote>
+<p>服务熔断</p>
+<p>1.调用失败会触发降级，而降级会调用fallback方法<br>
+2.但无论如何降级的流程一定会先调用正常方法再调用fallback方法<br>
+3.假如单位时间内调用失败次数过多，也就是降级次数过多，则触发熔断<br>
+4.熔断以后就会跳过正常方法直接调用fallback方法<br>
+5.所谓“熔断后服务不可用”就是因为跳过了正常方法直接执行fallback</p>
+<p>降级是思想，熔断是对降级的具体实现，但是降级的实现并不止熔断这一种</p>
+<p>熔断类型<br>
+熔断打开：请求不在进行调用当前服务，内部设置时钟一般为MTTR（平均故障处理时间），当打开时长到达所设时钟则进入<strong>半熔断状态</strong><br>
+熔断关闭：熔断关闭不会对服务进行熔断<br>
+熔断半开：部分请求根据规则调用当前服务，如果请求成功且符合规则则认为当前服务恢复正常，关闭熔断。</p>
+<p>服务限流</p>
+<p>秒杀高并发等操作，防止一次性请求过多</p>
+<h2 id="服务网关"><a class="header-anchor" href="#服务网关">¶</a>服务网关</h2>
+<p>WebFlux 响应式框架 异步非阻塞</p>
+<p>Router 路由<br>
+Predicate 断言<br>
+Filter 过滤</p>
+<h3 id="GeteWay"><a class="header-anchor" href="#GeteWay">¶</a>GeteWay</h3>
+<p>两种配置方式</p>
+<p>动态路由<br>
+断言</p>
+<p>filter的使用<br>
+自定义过滤器</p>
+<h2 id="配置中心"><a class="header-anchor" href="#配置中心">¶</a>配置中心</h2>
+<p>微服务意味着要将单体应用中的业务拆分成一个个子服务，每个服务的粒度相对较小，因此系统中会出现大量的服务。由于每个服务都需要必要的配置信息才能运行，所以一套集中式的、动态的配置管理设施是必不可少的。</p>
+<p>能干嘛</p>
+<p>集中管理配置文件<br>
+不同环境不同配置，<br>
+动态化配置更新，  运行时动态调整<br>
+分环境部署<br>
+将配置信息以REST接口形式暴露</p>
+<h2 id="消息总线"><a class="header-anchor" href="#消息总线">¶</a>消息总线</h2>
+<h3 id="是什么？"><a class="header-anchor" href="#是什么？">¶</a>是什么？</h3>
+<p>在微服务架构的系统中，通常会使用轻量级的消息代理来构建一个共用的消息主题，并让系统中所有微服务实例都连接上来。由于该主题中产生的消息会被所有实例监听和消费，所以称它为消息总线。在总线上的各个实例，都可以方便地广播─些需要让其他连接在该主题上的实例都知道的消息。</p>
+<h3 id="基本原理？"><a class="header-anchor" href="#基本原理？">¶</a>基本原理？</h3>
+<p>ConfigClient实例都监听MQ中同一个topic(默认是springCloudBus)。当一个服务刷新数据的时候，它会把这个信息放入到Topic中这样其它监听同一Topic的服务就能得到通知，然后去更新自身的配置。</p>
+]]></content>
+      <categories>
+        <category>SpringCloud</category>
+      </categories>
+      <tags>
+        <tag>SpringCloud</tag>
+        <tag>分布式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode（数据库）</title>
     <url>/2021/06/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%83%E4%B9%A0/</url>
     <content><![CDATA[<p>题库来源leetcode</p>
