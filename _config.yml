@@ -40,7 +40,11 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
+
 relative_link: false
 future: true
 highlight:
@@ -105,3 +109,91 @@ deploy:
   type: git
   repository: git@gitee.com:ash99/ash99.git
   branch: master
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+
+# 统计
+symbols_count_time:
+  symbols: true #是否统计字数
+  time: true #是否统计阅读时长
+  total_symbols: true #是否统计总字数
+  total_time: false #是否统计总阅读时长
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
+
+# RSS订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+
+#开启宠物
+live2d:
+  enable: false   #开启宠物
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: left   #指定宠物显示的位置
+    width: 200    #指定宠物显示的宽度
+    height: 300   #指定宠物显示的高度
+    hOffset: 65
+    vOffset: -50
+  mobile:
+    show: false  #是否在手机上显示
+#豆瓣
+douban:
+  user: 217541397
+  builtin: false
+  book:
+    title: '阅读'
+    quote: 'This is my book quote'
+  movie:
+    title: '观影'
+    quote: 'This is my movie quote'
+  game:
+    title: '游戏'
+    quote: 'This is my game quote'
+  timeout: 10000
+
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: true
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
