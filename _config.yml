@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 marked:
   prependRoot: true
   postAsset: true
@@ -168,26 +168,16 @@ douban:
     quote: 'This is my game quote'
   timeout: 10000
 
-# Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
-markdown:
-  preset: 'default'
+# Markdown config
+markdown_it_plus:
   render:
-    html: true
+    html: true						
     xhtmlOut: false
-    langPrefix: 'language-'
     breaks: true
     linkify: true
     typographer: true
     quotes: '“”‘’'
-  enable_rules:
-  disable_rules:
   plugins:
-    - markdown-it-footnote
-    - markdown-it-sup
-    - markdown-it-sub
-    - markdown-it-abbr
-    - markdown-it-emoji
   anchors:
     level: 2
     collisionSuffix: ''
@@ -197,3 +187,37 @@ markdown:
     permalinkSymbol: '¶'
     case: 0
     separator: '-'
+
+
+
+
+
+# # Markdown-it config
+# ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+# markdown:
+#   preset: 'default'
+#   render:
+#     html: true
+#     xhtmlOut: false
+#     langPrefix: 'language-'
+#     breaks: true
+#     linkify: true
+#     typographer: true
+#     quotes: '“”‘’'
+#   enable_rules:
+#   disable_rules:
+#   plugins:
+#     - markdown-it-footnote
+#     - markdown-it-sup
+#     - markdown-it-sub
+#     - markdown-it-abbr
+#     - markdown-it-emoji
+#   anchors:
+#     level: 2
+#     collisionSuffix: ''
+#     permalink: true
+#     permalinkClass: 'header-anchor'
+#     permalinkSide: 'left'
+#     permalinkSymbol: '¶'
+#     case: 0
+#     separator: '-'

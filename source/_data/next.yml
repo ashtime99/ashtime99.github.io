@@ -415,6 +415,7 @@ font:
   enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
+  # host: https://fonts.googleapis.com
   host: https://fonts.loli.net
 
   # Font options:
@@ -432,13 +433,13 @@ font:
   # Font settings for site title (.site-title).
   title:
     external: true
-    family: Lobster Two
+    family:
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family: EB Garamond
+    family: 
     size:
 
   # Font settings for posts (.post-body).
@@ -449,7 +450,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Source Code Pro
+    family: 
 
 
 # ---------------------------------------------------------------
