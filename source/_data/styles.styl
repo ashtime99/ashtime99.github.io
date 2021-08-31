@@ -296,16 +296,17 @@ border-top-color: #9954bb;
 
 /* 滚动条 */
 ::-webkit-scrollbar-thumb {
-    background-color: #5b5b5b;
-    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);
+    background: #00b09b;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to bottom, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+	background-image: linear-gradient(to bottom, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 0.3em;
 }
 ::-webkit-scrollbar-track {
-    background-color: #b6b6b6;
+    background-color: rgba(255,255,255,.5);
     border-radius: 0.3em;
 }
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 6px;
     height: 12px;
 }
 
