@@ -88,7 +88,7 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: false
+  sidebar: ture
   post: true
   language:
 
@@ -188,6 +188,7 @@ social:
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
+  
 
 social_icons:
   enable: true
@@ -518,7 +519,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
-pjax: false
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
@@ -714,10 +715,10 @@ firestore:
   apiKey: # Required
   projectId: # Required
 
-# Show Views / Visitors of the website / page with busuanzi.
+# Show Views / Visitors of the website / page with busuanzi. 不蒜子计数
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
