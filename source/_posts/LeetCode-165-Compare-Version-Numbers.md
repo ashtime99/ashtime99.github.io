@@ -94,6 +94,6 @@ class Solution {
     }
 }
 ```
-时间复杂度 $O(max(n,m))$，其中 $n$ 是字符串 version1 的长度，$m$ 是字符串 version2 的长度
-空间复杂度 $O(n+m)$，需要 $n+m$ 的空间去存数据。
+时间复杂度：$O(max(n,m))$，其中 $n$ 是字符串 version1 的长度，$m$ 是字符串 version2 的长度
+空间复杂度：$O(n+m)$，需要 $n+m$ 的空间去存数据。
 

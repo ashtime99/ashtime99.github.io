@@ -16,7 +16,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 **Example 1:**
 
-![p2](https://img-blog.csdnimg.cn/639fa807e2934655a34e838c4eb0c2ea.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMTQ5MTE5,size_16,color_FFFFFF,t_70#pic_center)
+![p2](https://img-blog.csdnimg.cn/c9b78245292c4d13b15f878d424f6794.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAYXNodGltZTk5,size_15,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 
 <pre>
