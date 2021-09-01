@@ -18,6 +18,8 @@ date: 2021-08-20 10:51:47
 国内：[gitee.io](https://ash99.gitee.io/)
 国外：[github.io](https://blog.ashtime.net/)
 
+*Ps. gitee 需要主动更新，可能较 github 会有延迟。*
+
 ## 日志
 
 - [2021-09-01] 重新部署到 `github`

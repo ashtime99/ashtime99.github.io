@@ -7,16 +7,17 @@ date: 2021-09-01 16:27:27
 
 ## 最终效果
 **开启复古的 CRT 效果**
-![CRT 效果](Windows-Terminal美化增强指南/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center.png)
+![CRT 效果](https://img-blog.csdnimg.cn/da2614bf8c3b415387c37a8b988413fe.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center)
 
 **正常效果**
-![正常效果](Windows-Terminal美化增强指南/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center.png)
+![正常效果](https://img-blog.csdnimg.cn/4442002ff8bc4f56a567eb33876a7cec.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center)
+<!--more-->
 ## 安装
 在window商店搜索`Windows Terminal`，注意不要选择Preview版。
 或者在GitHub上下载[microsoft/terminal](https://github.com/microsoft/terminal/releases)
-![安装界面](Windows-Terminal美化增强指南/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center.png)
+![安装界面](https://img-blog.csdnimg.cn/416da853d111498bbf0b6fd6187e827a.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center)
 **最开始的样子**
-![最开始的样子](Windows-Terminal美化增强指南/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center.png)
+![最开始的样子](https://img-blog.csdnimg.cn/6765d1ec5a6948c585166071bdee468e.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center)
 
 **查看PowerShell版本**
 打开PowerShell输入：
@@ -30,8 +31,8 @@ GitHub上的PowerShell：[PowerShell/PowerShell](https://github.com/PowerShell/P
 在[Windows Terminal Themes](https://windowsterminalthemes.dev/)这个网站中，选择自己喜欢的颜色主题。
 我选择的[Andromeda](https://windowsterminalthemes.dev/?theme=Andromeda)
 选好后复制，打开setting.json，把主题配置复制到里面
-![设置](Windows-Terminal美化增强指南/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center.png)
-![打开json文件](Windows-Terminal美化增强指南/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center.png)
+![设置](https://img-blog.csdnimg.cn/36593ce07be54907a4d3ea0f9f150f50.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center)
+![打开json文件](https://img-blog.csdnimg.cn/9ee228b34af84bc9b4a19486b4c4036c.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAYXNodGltZTk5,size_16,color_FFFFFF,t_70#pic_center)
 ```json
 "schemes": [
 	{
@@ -91,16 +92,16 @@ Install-Module PSReadLine -Scope CurrentUser
 ```
 
 **posh-git**
-> posh-git 是一个 PowerShell 模块，它通过提供可以在 PowerShell 提示符中显示的 Git 状态摘要信息来集成 Git 和 PowerShell，例如：![posh-git](Windows-Terminal美化增强指南/6bb3a24321e1434086bf58af701d05b1.png)  
-> 注意：如果你的电脑里没有安装Git，在输入`Import-Module posh-git`会报错
+> posh-git 是一个 PowerShell 模块，它通过提供可以在 PowerShell 提示符中显示的 Git 状态摘要信息来集成 Git 和 PowerShell，例如：![posh-git](https://img-blog.csdnimg.cn/6bb3a24321e1434086bf58af701d05b1.png)  
+注意：如果你的电脑里没有安装Git，在输入`Import-Module posh-git`会报错
 
 **oh-my-posh**
 > Powershell 的主题引擎，其灵感来自 Chris Benti 在PS-Config和Oh-My-ZSH在 OSX 和 Linux上所做的工作（因此得名）。
-> 注意：我安装的是Oh My Posh V3，部分命令会与老版不同。[官方文档](https://ohmyposh.dev/docs)
-> - 列出所有主题 
-> `Get-PoshThemes`
-> - 选择并设置您喜欢的那个
-> `Set-PoshPrompt -Theme Paradox`
+>注意：我安装的是Oh My Posh V3，部分命令会与老版不同。[官方文档](https://ohmyposh.dev/docs)
+>- 列出所有主题 
+`Get-PoshThemes`
+>- 选择并设置您喜欢的那个
+`Set-PoshPrompt -Theme Paradox`
 
 **DirColors**
 使文件显示多姿多彩。
@@ -182,3 +183,4 @@ Copyright (c) Microsoft Corporation.
 }
 ```
 有用的话，别忘记点赞👍，收藏❤
+
