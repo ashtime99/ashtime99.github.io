@@ -107,7 +107,9 @@ theme: next-7.8.0
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@gitee.com:ash99/ash99.git
+  repo: 
+    gitee: git@gitee.com:ash99/ash99.git
+    github: https://github.com/ashtime99/ashtime99.github.io.git
   branch: master
 
 # 搜索
@@ -153,6 +155,7 @@ live2d:
     vOffset: -50
   mobile:
     show: false  #是否在手机上显示
+
 #豆瓣
 douban:
   user: 217541397
