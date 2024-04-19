@@ -1,1 +1,1 @@
-var posts=["2024/04/16/Kafka的选举机制/","2024/04/16/报错记录-divide方法的精确问题/","2024/04/18/LeetCode-P0402/","2024/04/18/LeetCode-P0020/","2024/04/17/循环依赖的问题/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2024/04/16/Kafka的选举机制/","2024/04/18/LeetCode-P0020/","2024/04/18/LeetCode-P0402/","2024/04/17/循环依赖的问题/","2024/04/16/报错记录-divide方法的精确问题/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
